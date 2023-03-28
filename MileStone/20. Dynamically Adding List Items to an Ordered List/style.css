@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  background-color: cadetblue;
+}
+li {
+  margin: 10px;
+  font-size: 18px;
+  list-style-type: none;
+}
+button {
+  padding: 8px 10px;
+  background-color: chartreuse;
+  font-size: 18px;
+}
+button:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  padding: 10px 14px;
+  width: fit-content;
+  background-color: rgb(135, 222, 139);
+  font-size: 18px;
+  font-weight: 800;
+}
+button:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fahrenheit {
+  margin-top: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.date_element {
+  background-image: url("https://th.bing.com/th/id/OIP.MyRZVpqe5hLwOQ8xhgNJcwHaHV?w=207&h=205&c=7&r=0&o=5&pid=1.7");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+  background-size: 2.3rem 2.5rem;
+}
+::placeholder {
+  color: red;
+  margin-right: 25px;
+}
+.design {
+  width: 600px;
+  height: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 5) 0px -2px 6px 0px inset;
+  background-color: aquamarine;
+}
+.cel {
+  margin-top: 25px;
+  margin-left: 38px;
+}
+.far {
+  text-align: center;
+}
