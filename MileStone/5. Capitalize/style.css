@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+input{
+    padding: 12px 16px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 50px;
+    color: blue;
+}

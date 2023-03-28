@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/256/car.png" type="image/x-icon">
+
+    <!--Link Css-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--Link Google Font-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculate Car's Rental Cost</title>
+  </head>
+  <body>
+
+    <!--Main Section-->
+
+    <main>
+        <!--Main-Tittle-->
+
+      <div class="car-rental-tittle">
+        <h1>Calculate Car's Rental Cost</h1>
+      </div>
+      <!--Input Days-->
+      <div class="days-input">
+        <input id="days" type="number" placeholder="Enter Days For Rent" />
+      </div>
+
+      <!--Input Car Type -->
+
+      <div class="input-car-type">
+        <select name="" id="selectCar">
+          <option disabled selected>Select Car Type</option>
+          <option value="Economy">Economy</option>
+          <option value="Midsize">Midsize</option>
+          <option value="Luxury">Luxury</option>
+        </select>
+      </div>
+
+      <!--Button to generate car rent cost-->
+
+      <div class="gen-cost-btn">
+        <button>Cost Generate</button>
+      </div>
+
+      <!--display Car Rent Price-->
+
+      <div class="rent-cost">
+        <input
+          id="displayCost"
+          type="text"
+          placeholder="Your Rent Price"
+          readonly
+        />
+      </div>
+    </main>
+
+    <!--Link javaScript-->
+    <script src="./script.js"></script>
+  </body>
+</html>

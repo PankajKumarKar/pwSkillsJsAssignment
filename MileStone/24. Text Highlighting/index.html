@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Highlighting Example</title>
+    <!--Internal CSS-->
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="my-paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel mauris
+      eu velit convallis bibendum. Nullam vitae mauris id nisi congue laoreet.
+    </p>
+
+    <!--Internal Javascript-->
+    <script>
+      const paragraph = document.getElementById("my-paragraph");
+      const words = paragraph.innerText.split(" ");
+
+      for (let i = 0; i < words.length; i++) {
+        if (words[i].length > 8) {
+          words[i] = '<span class="highlight">' + words[i] + "</span>";
+        }
+      }
+
+      paragraph.innerHTML = words.join(" ");
+    </script>
+  </body>
+</html>

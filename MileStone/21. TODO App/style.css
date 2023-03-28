@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: dodgerblue;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+input {
+  font-size: 22px;
+  color: cornflowerblue;
+  border-radius: 15px;
+  padding: 12px 18px;
+  row-gap: 50px;
+  
+}
+button {
+  padding: 12px 16px;
+  font-size: 20px;
+  width: fit-content;
+  background-color: blueviolet;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 800;
+  background-color: rgb(73, 218, 44);
+}
+
+li {
+  color: #020202;
+  font-size: 40px;
+  font-weight: 600;
+}
+ol {
+  text-align: center;
+  margin-top: -220px;
+}
+
+
