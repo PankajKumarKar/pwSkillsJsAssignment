@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PW Skills Assignment || onmouseout</title>
+    <!--Internal CSS-->
+    <style>
+      body {
+        background-color: aqua;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      button {
+        width: fit-content;
+        border-color: gray;
+        padding: 12px 16px;
+        background-color: gold;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Button -->
+    <button onmouseout="message()">Mouse Out</button>
+
+    <!--Internal javScript-->
+    <script>
+      // Code For Mouseout Event
+      function message() {
+        alert("This Is Mouseout Event Example");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PW Skills Assignment || onkeypress</title>
+    <!--Internal CSS-->
+    <style>
+      body {
+        background-color: aqua;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        padding: 12px 16px;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Input-->
+    <input
+      type="text"
+      placeholder="Enter Input values "
+      onkeypress="message()"
+    />
+
+    <!--Internal javScript-->
+    <script>
+      // Code For Key press Event
+      function message() {
+        alert("This Is key press Event Example");
+      }
+    </script>
+  </body>
+</html>
